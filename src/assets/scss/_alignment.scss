@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+/* Flex */
+.dFlex {display: flex !important;}
+.diFlex {display: inline-flex !important;}
+
+/* Flex-Basis */
+.fBasisAuto {flex-basis: auto !important;}
+
+/* Intrinsic sizing keywords */
+.fBasisMaxContent {flex-basis: max-content !important;}
+.fBasisMinContent {flex-basis: min-content !important;}
+.fBasisFitContent {flex-basis: fit-content !important;}
+
+/* Flex 항목의 내용에 따라 자동으로 크기 조정 */
+.fBasisContent {flex-basis: content !important;}
+
+/* 전역 값 */
+.fBasisInherit {flex-basis: inherit !important;}
+.fBasisInitial {flex-basis: initial !important;}
+.fBasisRevert {flex-basis: revert !important;}
+.fBasisRevertLayer {flex-basis: revert-layer !important;}
+.fBasisUnset {flex-basis: unset !important;}
+
+
+/* Flex-Direction */
+.fDirectionRow {flex-direction: row !important;}
+.fDirectionRowReverse {flex-direction: row-reverse !important;}
+.fDirectionColumn {flex-direction: column !important;}
+.fDirectionColumnReverse {flex-direction: column-reverse !important;}
+
+/* 전역 값 */
+.fDirectionInherit {flex-direction: inherit !important;}
+.fDirectionInitial {flex-direction: initial !important;}
+.fDirectionRevert {flex-direction: revert !important;}
+.fDirectionRevertLayer {flex-direction: revert-layer !important;}
+.fDirectionUnset {flex-direction: unset !important;}
+
+
+/* Flex-Flow */
+/* flex-flow: <'flex-direction'> */
+.fFlexFlowRow {flex-flow: row !important;}
+.fFlexFlowRowReverse {flex-flow: row-reverse !important;}
+.fFlexFlowColumn {flex-flow: column !important;}
+.fFlexFlowColumnReverse {flex-flow: column-reverse !important;}
+
+/* flex-flow: <'flex-wrap'> */
+.fFlexFlowNowrap {flex-flow: nowrap !important;}
+.fFlexFlowWrap {flex-flow: wrap !important;}
+.fFlexFlowWrapReverse {flex-flow: wrap-reverse !important;}
+
+/* flex-flow: <'flex-direction'> and <'flex-wrap'> */
+.fFlexFlowRowNowrap {flex-flow: row nowrap !important;}
+.fFlexFlowColumnWrap {flex-flow: column wrap !important;}
+.fFlexFlowColumnReverseWrapReverse {flex-flow: column-reverse wrap-reverse !important;}
+
+/* 전역 값 */
+.fFlexFlowInherit {flex-flow: inherit !important;}
+.fFlexFlowInitial {flex-flow: initial !important;}
+.fFlexFlowRevert {flex-flow: revert !important;}
+.fFlexFlowRevertLayer {flex-flow: revert-layer !important;}
+.fFlexFlowUnset {flex-flow: unset !important;}
+
+
+/* Flex-Wrap */
+/* Default value */
+.flexWrapNowrap {flex-wrap: nowrap !important;}
+.flexWrapWrap {flex-wrap: wrap !important;}
+.flexWrapWrapReverse {flex-wrap: wrap-reverse !important;}
+
+/* 전역 값 */
+.flexWrapInherit {flex-wrap: inherit !important;}
+.flexWrapInitial {flex-wrap: initial !important;}
+.flexWrapRevert {flex-wrap: revert !important;}
+.flexWrapRevertLayer {flex-wrap: revert-layer !important;}
+.flexWrapUnset {flex-wrap: unset !important;}
+
+
+/* Align-Items */
+/* 기본 키워드 */
+.fAlignItemsNormal {align-items: normal !important;}
+.fAlignItemsStretch {align-items: stretch !important;}
+
+/* 위치정렬 */
+/* align-value 는 left 및 right 값을 사용하지 않습니다 */
+.fAlignItemsCenter {align-items: center !important;}
+.fAlignItemsStart {align-items: start !important;}
+.fAlignItemsEnd {align-items: end !important;}
+.fAlignItemsFlexStart {align-items: flex-start !important;}
+.fAlignItemsFlexEnd {align-items: flex-end !important;}
+.fAlignItemsSelfStart {align-items: self-start !important;}
+.fAlignItemsSelfEnd {align-items: self-end !important;}
+
+/* 베이스라인 정렬 */
+.fAlignItemsBaseline {align-items: baseline !important;}
+.fAlignItemsFirstBaseline {align-items: first baseline !important;}
+.fAlignItemsLastBaseline {align-items: last baseline !important;}
+
+/* 전역 값 */
+.fAlignItemsInherit {align-items: inherit !important;}
+.fAlignItemsInitial {align-items: initial !important;}
+.fAlignItemsRevert {align-items: revert !important;}
+.fAlignItemsRevertLayer {align-items: revert-layer !important;}
+.fAlignItemsUnset {align-items: unset !important;}
+
+
+/* Align-Content */
+/* 위치정렬 */
+/* align-content 는 left 및 right 값을 사용하지 않습니다 */
+.fAlignContentCenter {align-content: center !important;}
+.fAlignContentStart {align-content: start !important;}
+.fAlignContentEnd {align-content: end !important;}
+.fAlignContentFlexStart {align-content: flex-start !important;}
+.fAlignContentFlexEnd {align-content: flex-end !important;}
+
+/* 기본 정렬 */
+.fAlignContentNormal {align-content: normal !important;}
+
+/* 베이스라인 정렬 */
+.fAlignContentBaseline {align-content: baseline !important;}
+.fAlignContentFirstBaseline {align-content: first baseline !important;}
+.fAlignContentLastBaseline {align-content: last baseline !important;}
+
+/* 분산정렬 */
+.fAlignContentSpaceBetween {align-content: space-between !important;}
+.fAlignContentSpaceAround {align-content: space-around !important;}
+.fAlignContentSpaceEvenly {align-content: space-evenly !important;}
+.fAlignContentStretch {align-content: stretch !important;}
+
+/* 전역 값 */
+.fAlignContentInherit {align-content: inherit !important;}
+.fAlignContentInitial {align-content: initial !important;}
+.fAlignContentRevert {align-content: revert !important;}
+.fAlignContentRevertLayer {align-content: revert-layer !important;}
+.fAlignContentUnset {align-content: unset !important;}
+
+
+/* Justify-Items */
+/* 기본 키워드 */
+.fJustifyItemsNormal {justify-items: normal !important;}
+.fJustifyItemsStretch {justify-items: stretch !important;}
+
+/* 위치정렬 */
+.fJustifyItemsCenter {justify-items: center !important;}
+.fJustifyItemsStart {justify-items: start !important;}
+.fJustifyItemsEnd {justify-items: end !important;}
+.fJustifyItemsFlexStart {justify-items: flex-start !important;}
+.fJustifyItemsFlexEnd {justify-items: flex-end !important;}
+.fJustifyItemsSelfStart {justify-items: self-start !important;}
+.fJustifyItemsSelfEnd {justify-items: self-end !important;}
+.fJustifyItemsLeft {justify-items: left !important;}
+.fJustifyItemsRight {justify-items: right !important;}
+
+/* 베이스라인 정렬 */
+.fJustifyItemsBaseline {justify-items: baseline !important;}
+.fJustifyItemsFirstBaseline {justify-items: first baseline !important;}
+.fJustifyItemsLastBaseline {justify-items: last baseline !important;}
+
+/* 레거시 정렬 */
+.fJustifyItemsLegacyRight {justify-items: legacy right !important;}
+.fJustifyItemsLegacyLeft {justify-items: legacy left !important;}
+.fJustifyItemsLegacyCenter {justify-items: legacy center !important;}
+
+/* 전역 값 */
+.fJustifyItemsInherit {justify-items: inherit !important;}
+.fJustifyItemsInitial {justify-items: initial !important;}
+.fJustifyItemsRevert {justify-items: revert !important;}
+.fJustifyItemsRevertLayer {justify-items: revert-layer !important;}
+.fJustifyItemsUnset {justify-items: unset !important;}
+
+
+/* Justify-Content */
+/* 위치정렬 */
+.fJustifyContentCenter {justify-content: center !important;}
+.fJustifyContentStart {justify-content: start !important;}
+.fJustifyContentEnd {justify-content: end !important;}
+.fJustifyContentFlexStart {justify-content: flex-start !important;}
+.fJustifyContentFlexEnd {justify-content: flex-end !important;}
+.fJustifyContentLeft {justify-content: left !important;}
+.fJustifyContentRight {justify-content: right !important;}
+
+/* 기본정렬 */
+.fJustifyContentNormal {justify-content: normal !important;}
+
+/* 분산정렬 */
+.fJustifyContentSpaceBetween {justify-content: space-between !important;}
+.fJustifyContentSpaceAround {justify-content: space-around !important;}
+.fJustifyContentSpaceEvenly {justify-content: space-evenly !important;}
+.fJustifyContentStretch {justify-content: stretch !important;}
+
+/* 전역 값 */
+.fJustifyContentInherit {justify-content: inherit !important;}
+.fJustifyContentInitial {justify-content: initial !important;}
+.fJustifyContentRevert {justify-content: revert !important;}
+.fJustifyContentRevertLayer {justify-content: revert-layer !important;}
+.fJustifyContentUnset {justify-content: unset !important;}
+
+
+/* Justify-Self */
+/* 기본 키워드 */
+.fJustifySelfAuto {justify-self: auto !important;}
+.fJustifySelfNormal {justify-self: normal !important;}
+.fJustifySelfStretch {justify-self: stretch !important;}
+
+/* 위치정렬 */
+.fJustifySelfCenter {justify-self: center !important;}
+.fJustifySelfStart {justify-self: start !important;}
+.fJustifySelfEnd {justify-self: end !important;}
+.fJustifySelfFlexStart {justify-self: flex-start !important;}
+.fJustifySelfFlexEnd {justify-self: flex-end !important;}
+.fJustifySelfSelfStart {justify-self: self-start !important;}
+.fJustifySelfSelfEnd {justify-self: self-end !important;}
+.fJustifySelfLeft {justify-self: left !important;}
+.fJustifySelfRight {justify-self: right !important;}
+
+/* 베이스라인 정렬 */
+.fJustifySelfBaseline {justify-self: baseline !important;}
+.fJustifySelfFirstBaseline {justify-self: first baseline !important;}
+.fJustifySelfLastBaseline {justify-self: last baseline !important;}
+
+/* 전역 값 */
+.fJustifySelfInherit {justify-self: inherit !important;}
+.fJustifySelfInitial {justify-self: initial !important;}
+.fJustifySelfRevert {justify-self: revert !important;}
+.fJustifySelfRevertLayer {justify-self: revert-layer !important;}
+.fJustifySelfUnset {justify-self: unset !important;}
+
+/* Text-Align */
+
+/* 키워드 값 */
+.taLeft {text-align: left !important;}
+.taRight {text-align: right !important;}
+.taCenter {text-align: center !important;}
+.taJustify {text-align: justify !important;}
+.taJustifyAll {text-align: justify-all !important;}
+.taStart {text-align: start !important;}
+.taEnd {text-align: end !important;}
+.taMatchParent {text-align: match-parent !important;}
+
+/* 전역 값 */
+.taInherit {text-align: inherit !important;}
+.taInitial {text-align: initial !important;}
+.taUnset {text-align: unset !important;}
+
+/* Keyword values */
+.vaBaseline {vertical-align: baseline !important;}
+.vaSub {vertical-align: sub !important;}
+.vaSuper {vertical-align: super !important;}
+.vaTextTop {vertical-align: text-top !important;}
+.vaTextBottom {vertical-align: text-bottom !important;}
+.vaMiddle {vertical-align: middle !important;}
+.vaTop {vertical-align: top !important;}
+.vaBottom {vertical-align: bottom !important;}
+
+/* 전역 값 */
+.vaInherit {vertical-align: inherit !important;}
+.vaInitial {vertical-align: initial !important;}
+.vaRevert {vertical-align: revert !important;}
+.vaRevertLayer {vertical-align: revert-layer !important;}
+.vaUnset {vertical-align: unset !important;}
+
+
+
+/* 그리드 */
+.dGrid {display: grid !important;}
+.diGrid {display: inline-grid !important;}
+
+@for $i from 1 through 500 {
+  /* 그리드 갭 - all */
+  .dGridAllGap#{$i} {gap: #{$i}px !important;}
+  /* 그리드 갭 - row */
+  .dGridRowGap#{$i} {row-gap: #{$i}px !important;}
+  /* 그리드 갭 - column */
+  .dGridColumnGap#{$i} {column-gap: #{$i}px !important;}
+}
+
+/* 블럭 */
+.dBlock {display: block;}
+
+.preWrap {white-space: pre-wrap;}

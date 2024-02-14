@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+// 폰트 스타일 (100 ~ 900)
+@for $i from 1 through 9 {
+  .ftw#{100*$i} {font-weight: #{$i}00 !important;}
+}
+
+// 폰트 사이즈 (5 ~ 120)
+@for $i from 5 through 120 {
+  /* margin - top */
+  .fz#{$i} {font-size: #{$i}px !important;}
+}

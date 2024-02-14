@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* 범위 (0px ~ 1920px) */
+@for $i from 0 through 1920 {
+  /* margin - top */
+  .mt#{$i} {margin-top: #{$i}px !important;}
+
+  /* margin - bottom */
+  .mb#{$i} {margin-bottom: #{$i}px !important;}
+
+  /* margin - left */
+  .ml#{$i} {margin-left: #{$i}px !important;}
+
+  /* margin - right */
+  .mr#{$i} {margin-right: #{$i}px !important;}
+  
+  /* margin - left & right */
+  .mx#{$i} {margin: 0px #{$i}px !important;}
+
+  /* margin - top & bottom */
+  .my#{$i} {margin: #{$i}px 0px !important;}
+
+  /* margin - all */
+  .ma#{$i} {margin: #{$i}px !important;}
+
+  /* padding - top */
+  .pt#{$i} {padding-top: #{$i}px !important;}
+
+  /* padding - bottom */
+  .pb#{$i} {padding-bottom: #{$i}px !important;}
+
+  /* padding - left */
+  .pl#{$i} {padding-left: #{$i}px !important;}
+
+  /* padding - right */
+  .pr#{$i} {padding-right: #{$i}px !important;}
+
+  /* padding - left & right */
+  .px#{$i} {padding: 0px #{$i}px !important;}
+
+  /* padding - top & bottom */
+  .py#{$i} {padding: #{$i}px 0px !important;}
+
+  /* padding - all  */
+  .pa#{$i} {padding: #{$i}px !important;}
+}
